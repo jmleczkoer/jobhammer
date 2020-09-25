@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -13,9 +12,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Submit Request
+          Submit Your Request
         </a>
       </header>
+      <p style={{ backgroundColor: "#FFF" }}>
+        Submit your request for construction materials. Well work with our
+        network of suppliers to get you what you need.
+      </p>
     </div>
   );
 }
